@@ -27,7 +27,7 @@ jobs:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
       - name: Clone env config repository
-        run: git clone git@github.com:Kenechukwu-YV/femi_env.git
+        run: git clone git@github.com:BabafemiB/crudapi.git
 
       - name: Build Docker Image
         run: |
